@@ -65,7 +65,8 @@
 
 *   **Lombok:** Для упрощения создания классов с геттерами, сеттерами и конструкторами.
    *   Чтобы установить Lombok, добавьте его в зависимости вашего проекта.
-      *   Если вы используете Maven:
+   *   _Если у Вас не работает Lombok, то включите аннотирование._
+   *   Если вы используете Maven:
          ```xml
             <dependency>
                <groupId>org.projectlombok</groupId>
@@ -79,7 +80,7 @@
              compileOnly 'org.projectlombok:lombok:1.18.30'
              annotationProcessor 'org.projectlombok:lombok:1.18.30'
            ```
-       * Если у Вас не работает Lombok, то включите аннотирование.
+       
    *  И установите плагин Lombok в IDE (например в IntelliJ IDEA).
 * **Apache Commons Codec:** Для кодирования в base64
   *  Чтобы установить, добавьте его в зависимости вашего проекта:

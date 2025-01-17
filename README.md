@@ -79,6 +79,7 @@
              compileOnly 'org.projectlombok:lombok:1.18.30'
              annotationProcessor 'org.projectlombok:lombok:1.18.30'
            ```
+       * Если у Вас не работает Lombok, то включите аннотирование.
    *  И установите плагин Lombok в IDE (например в IntelliJ IDEA).
 * **Apache Commons Codec:** Для кодирования в base64
   *  Чтобы установить, добавьте его в зависимости вашего проекта:
